@@ -23,6 +23,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.=#
 
+#=Changes: 
+Included optional args f(x,y,args) in order to pass additional data to f. 
+=#
 function line(f, x0::Int, y0::Int, x1::Int, y1::Int, args...)
     dx = 2 * (x1 - x0)
     dy = 2 * (y1 - y0)
