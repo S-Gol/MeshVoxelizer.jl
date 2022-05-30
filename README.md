@@ -24,6 +24,8 @@ Optional arguments:
 * `resolution` Defines the length of the largest dimension of the voxel array. Default = 100.
 * `padMesh` Pads the voxel array with 1 additional element per side, offsets the elements by 1.
  
+## Video:
+
 Resolution ranging from 10-500 as presented in `examples.ipynb`
 
 ![](https://i.imgur.com/tcvFloL.gif)
